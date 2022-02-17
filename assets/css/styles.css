@@ -36,6 +36,7 @@
      --color-primary: #2E266F;
      --color-secondary: #FE043C;
      --color-grey: #707070;
+     --color-white: #FFFFFF;
      --body-color: #FFEDDE;
      --backgroud-color: #FFF5EC;
 
@@ -131,12 +132,36 @@ body {
 }
 
 .home__showcase {
+    display: flex;
     height: 650px;
+    justify-content: center;
+    align-items: center;
 }
 
-.home__location {
+.home__img-food-container {
+
+}
+
+.location {
     position: absolute;
+    display: flex;
     left: 0px;
+    width: 280px;
+    height: 65px;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-white);
+    background-color: var(--color-secondary);
+    border-radius: 0px 100px 100px 0px;
+    font-size: 30px;
+}
+
+.location__icon {
+
+}
+
+.location__title {
+    padding-left: 20px;
 }
 
 
