@@ -20,7 +20,7 @@
     --font-semi-bold: 600;
 
     /* Font size for large devices */
-    @media screen and (min-width: 968px) {
+    /* @media screen and (min-width: 968px) {
         :root {
             --big-font-size: 3rem;
             --h1-font-size: 2.25rem;
@@ -30,10 +30,10 @@
             --small-font-size: .875rem;
             --smaller-font-size: .813rem;
         }
-    }
+    } */
 
      /*========== Colors ==========*/
-     --color-primary: #2e266f;
+     --color-primary: #2E266F;
      --color-secondary: #FE043C;
      --color-grey: #707070;
      --body-color: #FFEDDE;
@@ -54,3 +54,89 @@
 html {
     scroll-behavior: smooth;
 }
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    background-color: var(--backgroud-color);
+    min-width: 100vw;
+    min-height: 100vh;
+    font-family: var(--body-font);
+    color: var(--color-primary);
+}
+/*==================== Reuse ====================*/
+.section {
+    padding: 20px 140px;
+}
+
+
+
+/*==================== Navbar ====================*/
+
+.header {
+    height: 150px;
+    padding: 20px 140px;
+}
+
+.nav__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.nav__logo {
+    color: var(--color-secondary);
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 108px;
+    font-style: normal;
+}
+
+.nav__menu {
+    display: flex;
+}
+
+.nav__menu-item {
+    padding: 20px;
+    font-size: 1rem;
+    line-height: 24px;
+    text-align: center;
+    
+}
+
+.nav__user-setting {
+
+}
+
+/*==================== HOME ====================-->*/
+
+.home {
+
+}
+
+.home__container {
+
+}
+
+.home__showcase {
+    height: 650px;
+}
+
+.home__location {
+    position: absolute;
+    left: 0px;
+}
+
+
