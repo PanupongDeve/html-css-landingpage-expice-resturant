@@ -22,12 +22,22 @@
                 <li class="nav__menu-item">Menu Three</li>
                 <li class="nav__menu-item">Menu Four</li>
             </ul>
-            <div class="nav__user-setting">User-Icon</div>
+            <div class="nav__user-setting">
+                <div class="nav__user-setting__avatar">
+                    <i class="uil uil-user user__icon"></i>
+                    <div class="icon__online"></div>
+                </div>
+                <div class="nav__user-setting__username">
+
+                </div>
+            </div>
         </nav>
     </header>
     <main class="main">
         <!--==================== HOME ====================-->
         <section class="home section" id="home">
+            <div class="sidebar-backgroud"></div>
+
             <div class="home__container">
                 <div class="home__showcase">
                     <div class="home__food-container">
@@ -38,17 +48,18 @@
                             Discover Restaurant <br>
                             & Delicious Food
                         </div>
-                        <div class="home__food-search">
-                            <div class="home__food-input">
-                                    search
+                        <form class="home__food-search">
+                            <input type="text" placeholder="Search Restaurant, Food" class="home__food-input">              
+                            <div class="home__food-submit">
+                                    GO
                             </div>
-                            <div class="home__food-button">
-                                    button search
-                            </div>
-                        </div>
+                        </form>
                     </div>
                     <div class="home__img-food-container">
-                        Image This Herer
+                        <img class="img-home__dot-vector-top" src="/assets/img/dot-vector.svg" alt="">
+                        <img class="img-home__dot-vector-bottom" src="/assets/img/dot-vector.svg" alt="">
+                        <img class="img-home__vegetable" src="/assets/img/home-food-vegetable.png" alt="">
+                        <img class="img-home__food" src="/assets/img/home-food.png" alt="">
                     </div>
                 </div>
                 <div class="location">
