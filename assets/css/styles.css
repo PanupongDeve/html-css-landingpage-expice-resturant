@@ -120,6 +120,7 @@ body {
 
 .nav__user-setting {
     display: flex;
+    cursor: pointer;
 }
 
 .nav__user-setting__avatar {
@@ -130,6 +131,10 @@ body {
     height: 52px;
     background-color: var(--color-white);
     border-radius: 50%;
+}
+
+.nav__user-setting__avatar:hover {
+    opacity: 0.7;
 }
 
 .user__icon {
@@ -237,6 +242,7 @@ body {
 }
 
 .home__food-submit {
+    cursor: pointer;
     width: 200px;
     height: 72px;
     background-color: var(--color-secondary);
@@ -249,6 +255,11 @@ body {
     color: var(--color-white);
     margin: 9px;
     border-radius: 60px 0px 0px 0px;
+    transition: .3s;
+}
+
+.home__food-submit:hover {
+    opacity: 0.8;
 }
 
 .home__img-food-container {
@@ -282,6 +293,7 @@ body {
 }
 
 .location {
+    cursor: pointer;
     position: absolute;
     display: flex;
     left: 0px;
@@ -293,6 +305,11 @@ body {
     background-color: var(--color-secondary);
     border-radius: 0px 100px 100px 0px;
     font-size: 30px;
+    transition: .3s;
+}
+
+.location:hover {
+    opacity: 0.7;
 }
 
 .location__icon {
