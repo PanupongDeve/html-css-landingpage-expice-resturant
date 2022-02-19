@@ -147,13 +147,27 @@ body {
     width: 15px;
     height: 15px;
     top: 45px;
-    right: 125px;
+    right: 195px;
     background-color: #31A24C;
     border-radius: 50%;
 }
 
 .nav__user-setting__username {
     display: flex;
+    color: var(--color-white);
+    justify-content: center;
+    align-items: center;
+    margin-left: 9px;
+}
+
+.user__text {
+    font-size: 16px;
+    line-height: 24px;
+    
+}
+
+.icon__down {
+    font-size: 25px;    
 }
 
 /*==================== HOME ====================-->*/
@@ -290,6 +304,43 @@ body {
     z-index: -1;
     top: 560px;
     left: 955px;
+}
+
+.slider__container {
+    display: flex;
+    float: right;
+
+}
+
+.arrow-left,
+.arrow-right {
+    color: var(--color-white);
+    margin: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow-text {
+    font-size: 45px;
+}
+
+.text-left {
+    margin-left: -25px;
+    padding-bottom: 7px;
+}
+
+.text-right {
+    margin-right: -25px;
+    padding-bottom: 7px;
+}
+
+.icon__circle {
+    width: 45px;
+    height: 45px;
+    border: 3px solid #FFF;
+    border-radius: 50%;
 }
 
 .location {
