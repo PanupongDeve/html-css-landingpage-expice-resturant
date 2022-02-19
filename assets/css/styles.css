@@ -87,7 +87,6 @@ body {
 
 .header {
     height: 150px;
-    padding: 20px 140px;
 }
 
 .nav__container {
@@ -173,7 +172,7 @@ body {
 /*==================== HOME ====================-->*/
 
 .home {
-
+    height: 1100px;
 }
 
 .sidebar-backgroud {
@@ -371,4 +370,223 @@ body {
     padding-left: 20px;
 }
 
+.top-restaurant {
+    
+    padding-right: 340px;
+    height: 1200px;
+}
 
+.topic__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title__container {
+    display: flex;
+    align-items: center;
+}
+
+.title__header-image {
+    background-color: var(--color-secondary);
+    width: 25px;
+    height: 140px;
+    margin-right: 30px;
+}
+
+.title__text {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 62px;
+    text-transform: capitalize;
+    margin-right: 149px;
+}
+
+.topic__description {
+    width: 609px;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--color-grey);
+}
+
+.menu-slide__container {
+    margin-top: 75px;
+}
+
+.vector-bg-left__container {
+    position: absolute;
+    left: 20px;
+}
+
+.vector-left__img {
+    width: 320px;
+    height: 50px;
+}
+
+.menu-slide-card__container {
+    position: absolute;
+    left: 0px;
+    margin-top: 80px;
+    display: flex;
+    align-items: center; 
+}
+
+.card__panel {
+    width: 640px;
+    height: 640px;
+    border-radius: 20px;
+}
+
+.bg-pizza__img {
+    background-image: url('../img/bg-pizza.png');
+    background-repeat: no-repeat;
+}
+
+.bg-burgur__img {
+    background-image:  url('../img/bg-burgur.png');
+    background-repeat: no-repeat;
+}
+
+.panel-right {
+    margin-left: 40px;
+}
+
+.bg-card__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 5;
+}
+
+.card-panel__body {
+    height: 275px;
+    background: rgba(254, 4, 60, 0.7);
+    border-radius: 0px 0px 20px 20px;
+    color: var(--color-white);
+    padding: 40px 0px 40px 60px;
+}
+
+.card-panel__title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+}
+
+.card-panel__description {
+    font-style: normal;
+    font-weight: normal;
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 24px;
+    width: 390px;
+}
+
+.location-and-booking__container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.card-location {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.card-location__icon {
+    width: 20px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.card-location__text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.booking-button {
+    height: 60px;
+    width: 210px;
+    background: var(--color-white);
+    border-radius: 100px 0px 0px 100px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--color-secondary);
+    font-size: 16px;
+}
+
+.vactor-bg__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.vector-right__img {
+    position: absolute;
+    width: 320px;
+    height: 50px;
+    top: 410px;
+    left: 1165px;
+    transform: rotate(-90deg);
+    z-index: -500;
+}
+
+.vector-bottom__img {
+    width: 320px;
+    height: 50px;
+    z-index: -500;
+    position: absolute;
+    top: 620px;
+    left: 1030px;
+    /* margin-left: -250px; */
+}
+
+.see-more__container {
+    margin-left: 100px
+}
+
+.see-more-icon__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.see-more__line {
+    width: 72px;
+    height: 0px;
+    border: 3px solid var(--color-secondary);
+}
+
+
+.icon__circle-alt {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: var(--color-secondary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right__icon {
+    color: var(--color-white);
+    font-size: 25px;
+}
+
+.see-more__text {
+    margin-top: 26px;
+    color: var(--color-secondary);
+    float: right;
+    margin-right: -15px;
+    cursor: pointer;
+}
