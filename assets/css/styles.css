@@ -37,8 +37,8 @@
      --color-secondary: #FE043C;
      --color-grey: #707070;
      --color-white: #FFFFFF;
-     --body-color: #FFEDDE;
      --backgroud-color: #FFF5EC;
+     --backgroud-secondary-color: #FFEDDE;
 
 
 
@@ -589,4 +589,152 @@ body {
     float: right;
     margin-right: -15px;
     cursor: pointer;
+}
+
+
+/* ==================== Booking Section ==================== */
+
+.booking-section {
+    background-color: var(--backgroud-secondary-color);
+    min-height: 1090px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.advance-booking__container {
+    background-color: var(--color-white);
+    min-height: 560px;
+    min-width: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 513px;
+    padding-right: 326px;
+    margin-left: -20px;
+}
+
+.advance-booking__before-title {
+    width: 230px;
+    height: 15px;
+    background-color: var(--color-secondary);
+    margin-bottom: 30px;
+}
+
+.advacne-booking__title {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 24px;
+    color: var(--color-primary);
+    margin-bottom: 60px;
+}
+
+.search-restrutent__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.search-restrutent__input {
+    margin-left: 40px;
+    margin-top: 38px;
+    margin-bottom: 37px;
+    margin-right: 221px;
+    border: none;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--color-primary); 
+}
+
+.search-restrutent__input::placeholder {
+    color: var(--color-primary);
+    opacity: 0.6;
+}
+
+.search-restrutent__input:focus-visible {
+    border: none;
+    outline-color: transparent;
+    
+}
+
+.search-restrutent__submit {
+    cursor: pointer;
+    width: 128px;
+    height: 62px;
+    background-color: var(--color-secondary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 90px;
+    color: var(--color-white);
+    margin: 9px;
+    border: none;
+    transition: .3s;
+}
+
+.search-restrutent__submit:hover {
+    opacity: 0.8;
+}
+
+.time-booking__container {
+    display: flex;
+}
+
+.time-booking-input__container {
+    display: flex;
+    flex-direction: column;
+    margin-right: 70px;
+}
+
+.time-booking__label {
+    display: flex;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--color-primary);
+    margin-bottom: 10px;
+}
+
+.time-booking__input {
+    height: 27px;
+    border: none;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--color-primary); 
+}
+
+.time-booking__input::placeholder {
+    color: var(--color-primary);
+    opacity: 0.6;
+}
+
+.time-booking__input:focus-visible {
+    border: none;
+    outline-color: transparent;
+    
+}
+
+.time-booking__icon {
+    transform: rotate(180deg);
+    margin-bottom: -5px;
+    margin-left: 4px;
+    color: var(--color-secondary);
+    
+
+}
+
+.advance-booking__img-left {
+    position: absolute;
+    left: 0px;
+    top: 2165px;
+    z-index: 5;
+    overflow: hidden;
+}
+
+.advance-booking__img-right{
+    position: absolute;
+    right: 0px;
 }
