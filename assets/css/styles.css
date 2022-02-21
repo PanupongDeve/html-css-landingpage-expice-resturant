@@ -738,3 +738,109 @@ body {
     position: absolute;
     right: 0px;
 }
+
+/* ==================== Our Section ==================== */
+
+.our-service-secition {
+    padding-top: 150px;
+}
+
+.our-service-title__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.our-service-title__img {
+    width: 25px;
+    height: 140px;
+    background: var(--color-secondary);
+    margin-right: 30px;
+}
+
+
+
+.our-service__title {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 62px;
+    width: 320px;
+    margin-right: 250px;
+}
+
+.our-service__description {
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--color-grey);
+    width: 609px;
+}
+
+.our-service-menu__backgroud {
+    height: 980px;
+    margin-top: 150px;
+    background-image:  url('../img/dot-backgroud.png');
+    background-repeat: no-repeat;
+}
+
+.our-service-menu__container {
+    height: 900px;
+    margin-left: 140px;
+    margin-right: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.our-service-menu__left {
+    display: flex;
+    flex-direction: column;
+}
+
+.our-service-booking__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.booking-img__container {
+    background-color: var(--backgroud-secondary-color);
+    width: 390px;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow-booking__icon {
+    margin-left: -25px;
+}
+
+.advance-table-booking__container {
+    margin-top: 40px;
+    margin-left: 6px;
+}
+
+.advance-table-booking__title {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    width: 209px;
+    margin-bottom: 20px;
+}
+
+.advance-table-booking__sub-title {
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--color-grey);
+    width: 199px;
+}
+
+.advance-table-booking__line-arrow {
+    position: relative;
+    width: 84px;
+    height: 3px;
+    top: -38px;
+    right: -105px;
+    background: var(--color-secondary);
+}
