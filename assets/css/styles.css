@@ -781,6 +781,7 @@ body {
     margin-top: 150px;
     background-image:  url('../img/dot-backgroud.png');
     background-repeat: no-repeat;
+    margin-bottom: 150px;
 }
 
 .our-service-menu__container {
@@ -788,7 +789,6 @@ body {
     margin-left: 140px;
     margin-right: 140px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
@@ -800,7 +800,7 @@ body {
 .our-service-booking__container {
     display: flex;
     align-items: center;
-    justify-content: center;
+    
 }
 
 .booking-img__container {
@@ -842,5 +842,73 @@ body {
     height: 3px;
     top: -38px;
     right: -105px;
+    background: var(--color-secondary);
+}
+
+.--text-right {
+    text-align: right;
+    width: 160px;
+}
+
+.advance-table-booking__line-arrow-right {
+    position: relative;
+    width: 84px;
+    height: 3px;
+    background: var(--color-secondary);
+    top: -38px;
+   
+}
+
+.our-service-food__container {
+    display: flex;
+    align-items: center;
+}
+.arrow-right__img {
+   margin-left: 86px;
+   margin-right: -25px;
+   z-index: 10;
+}
+
+.our-service-menu__right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.delivery-backgroud__container {
+    background-color: var(--backgroud-secondary-color);
+    width: 670px;
+    height: 758px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.delivery__icon {
+    margin-bottom: 90px;
+}
+
+.delivery__title {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    width: 250px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.delivery__sub-title {
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--color-grey);
+    width: 199px;
+    margin-bottom: 20px;
+}
+
+.delivery__line {
+    width: 192px;
+    height: 3px;
     background: var(--color-secondary);
 }
